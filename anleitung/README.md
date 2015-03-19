@@ -249,7 +249,7 @@ Die Task Bar befindet sich jetzt oben und blockiert die Fenster. Man kann die Ta
 
     nano ~/.config/lxpanel/LXDE/panels/panel
 
-Wo `autohide=0` steht muss `autohide=1` hin, damit die Task Bar sich versteckt. `Strg+O` speichert, `Strg+X` schließt den Editor.
+Wo `autohide=0` steht muss `autohide=1` hin, damit die Task Bar sich versteckt. `Strg+o` speichert, `Strg+x` schließt den Editor.
 
 Quellen
 -------
