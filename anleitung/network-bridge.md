@@ -15,7 +15,13 @@ Dazu muss man
 
 ![bridge-connections.png](bridge-connections.png)
 
-Sollte dann dieses Fenster auftauchen, hat sich der Raspberry Pi die IP-Adresse des Computers geschnappt und wir müssen manuell eine neue Adresse eingeben. 
+Sollte dann dieses Fenster auftauchen, hat sich der Raspberry Pi die IP-Adresse des Computers geschnappt:
+
+![adresskonflikt.png](adresskonflikt.png)
+
+Wenn das Fenster nicht auftaucht, dann geht es [weiter mit der Anleitung](./README.md). Eventuell taucht es aber später auf, wenn der Raspberry Pi neu gestartet ist.
+
+Das Fenster ist aufgetaucht. Wir müssen manuell eine neue Adresse eingeben.
 
 1. Netzwerbrücke löschen.
 2. [Unsere IP-Adresse herausfinden (googlen)](http://www.tippscout.de/windows-xp-ip-adresse-des-computers-ermitteln-und-herausfinden_tipp_2676.html). 

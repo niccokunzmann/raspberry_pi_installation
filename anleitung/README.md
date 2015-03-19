@@ -14,10 +14,10 @@ Diese Gegenstände werden benötigt:
  - 1 SD-Karte
  - 1 Raspberry Pi Stromversorgung
 
-Folgende Software muss runter geladen werden:
+Folgende Software muss herunter geladen werden:
 
  - [NOOBS Offline and network install](http://www.raspberrypi.org/downloads/) nicht NOOBS LITE
- - [master.zip](https://github.com/niccokunzmann/raspberry_pi_auto_install/archive/master.zip)
+ - [master.zip](https://github.com/niccokunzmann/raspberry_pi_auto_install/archive/master.zip) - dieses Repository
  - [Python3](https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi)
  - [MobaXTerm](http://mobaxterm.mobatek.net/download-home-edition.html)
  - [SD Card Formatter](https://www.sdcard.org/downloads/formatter_4/)
@@ -35,7 +35,7 @@ Wir befinden uns auf dem Windowscomputer.
 Sie landen wahrscheinlich im Downloads Ordner oder dort, wo man sie hinspeichert.
 Während der Download läuft, können schon einige Programme installiert werden.
 
-_Nebenbei: diese Dateien sind die selben wie von [raspberrypi.org/downloads](http://www.raspberrypi.org/downloads/). [Diese Anweisungen](http://raspberrypi.stackexchange.com/questions/15192/installing-raspbian-from-noobs-without-display) erzeugen die selben Dateien wir in `master.zip`._
+_Nebenbei: Diese Dateien sind die selben wie von [raspberrypi.org/downloads](http://www.raspberrypi.org/downloads/). [Diese Anweisungen](http://raspberrypi.stackexchange.com/questions/15192/installing-raspbian-from-noobs-without-display) erzeugen die selben Dateien wir in `master.zip`._
 
 2. Installation
 ---------------
@@ -44,15 +44,13 @@ Python3 muss installiert werden, um später die Netzwerkadresse des Raspberry Pi
 
 **[Python3](https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi) herunterladen und installieren.**
 
-MobaXTerm erlaubt es uns, sowohl die Kommandozeile als auch die Grafische Oberfläche des Raspberry Pi zu benutzen.
+MobaXTerm erlaubt es uns, sowohl die Kommandozeile als auch die grafische Oberfläche des Raspberry Pi zu benutzen.
 
 **[MobaXTerm](http://mobaxterm.mobatek.net/download-home-edition.html) herunterladen und installieren oder entpacken.**
 
 Mit dem SD Card Formatter formatieren wir die SD-Karte, sodass wir die benötigten Dateien für das Betriebssystem des Raspberry Pi darauf kopieren können.
 
 **[SD Card Formatter](https://www.sdcard.org/downloads/formatter_4/) herunterladen und installieren.**
-
-Mit diesem DHCP-Server können die IP-Adressen des Raspberry Pis und anderer Rechner im Netzwerk sichtbar gemacht werden.
 
 3. Die SD-Karte Formatieren
 ---------------------------
@@ -62,7 +60,7 @@ Mit diesem DHCP-Server können die IP-Adressen des Raspberry Pis und anderer Rec
 1. Die SD-Karte kontrollieren, dass der Schalter nicht auf LOCK steht.
 2. Die SD-Karte in den Rechner einführen.
 3. SD Card Formatter starten.
-4. Bei `Drive:` die richitge SD-Karte auswählen, da in Schritt 5 alle Dateien gelöscht werden.
+4. Bei `Drive:` die richitge SD-Karte auswählen, da nach Schritt 6 alle Dateien gelöscht werden.
 5. Auf `Format` klicken.
 6. Die Dialoge verstehen und bestätigen.
 
@@ -108,11 +106,11 @@ Die Installation kann man sich auch [hier](http://www.raspberrypi.org/help/noobs
 5. Den Raspberry Pi mit dem Rechner Verbinden
 ---------------------------------------------
 
-Es gibt zwei Möglichkeiten, sich mit dem Raspberry Pi zu verbinden. Am besten in der Reihenfolge sehen, ob sie in diesem Fall passen.
+Es gibt mehrere Möglichkeiten, sich mit dem Raspberry Pi zu verbinden. Am besten in der Reihenfolge sehen, ob sie in diesem Fall passen.
 
-1. Über ein bestehendes Netzwerk wie es zu Hause besteht.
-2. Eine Direktverbindung ohne Internet für den Raspberry PI.
-3. Eine Direktverbindung mit Netzwerkbrücke.
+1. Über ein bestehendes Netzwerk wie es zu Hause besteht
+2. Eine Direktverbindung ohne Internet für den Raspberry Pi
+3. Eine Direktverbindung mit Netzwerkbrücke
 4. WLAN
 5. Maus und Tastatur mit Bildschirm
 
@@ -127,7 +125,7 @@ Der Raspberry Pi erhält Internetzugriff.
 
 ![Verbinden-direkt.png](Verbinden-direkt.png)
 
-Das LAN-Kabel wird in den Laptop und das andere Ende in den Raspberry PI gesteckt. Dadurch hat der Raspberry Pi keinen Interntezugriff.
+Das LAN-Kabel wird in den Laptop und das andere Ende in den Raspberry Pi gesteckt. Dadurch hat der Raspberry Pi keinen Interntezugriff aber wir können auf ihn drauf.
 
 ### 5.3 Direktverbindung mit Netzwerkbrücke
 
@@ -204,7 +202,7 @@ _Nebenbei: Manche Einträge sind alt und die Rechner gibt es nicht mehr. Um das 
 5. Nutzername `pi` und Passwort `raspberry` eingeben.
 6. Beim ersten Start wird eine Konfiguration verlangt. Dazu muss man `sudo raspi-config` eingeben und ENTER drücken. Man kann dort
      - Das Passwort setzen
-     - Desktop booten einschalten, dass man nciht in der Kommandozeile landet
+     - Desktop booten einschalten, dass man beim Start nicht in der Kommandozeile landet
      - Die Sprache ändern
      - Die Kamera anschalten
 7. Finish
@@ -240,7 +238,8 @@ In der Session von MobaXTerm kann man Programme starten.
  - `lxsession &` startet den Desktop
  - `idle3 &` started die Python Shell
  - `pcmanfm &` startet den Dateibrowser
- - `startx` startet die grafische Oberfläche, wenn man sich mit Maus, Bildschirm und Tastatur davor befindet.
+ - `startx` startet die grafische Oberfläche, wenn man sich mit Maus, Bildschirm und Tastatur davor befindet
+ - `sudo raspi-config` startet die Konfiguration für den Raspberrry Pi
 
 Das `&` dahinter führt dazu, dass man mehrere Befehle eingeben kann.
 

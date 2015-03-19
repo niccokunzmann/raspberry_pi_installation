@@ -1,4 +1,4 @@
-raspberry_pi_installation
+raspberry pi installation
 =========================
 
 Installation des Raspbian Betriebssystems auf dem Raspberry Pi mit und ohne Bildschirm
