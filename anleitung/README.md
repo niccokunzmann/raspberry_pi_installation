@@ -32,7 +32,7 @@ Wir befinden uns auf dem Windowscomputer.
 
 **Die Datei [`NOOBS_v1_4_0.zip`](http://www.raspberrypi.org/downloads/) muss heruntergeladen werden.** 
 
-Es gibt auch `NOOBS LITE` aber das ist nciht gemeint.
+Es gibt auch `NOOBS LITE` aber das ist nicht gemeint.
 
 Die Dateien landen wahrscheinlich im Downloads-Ordner oder dort, wo man sie hinspeichert.
 Während der Download läuft, können schon einige Programme installiert werden.
