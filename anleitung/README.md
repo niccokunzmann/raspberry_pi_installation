@@ -147,7 +147,7 @@ Der Raspberry Pi erhält Internetzugriff.
 
 ![Verbinden-direkt.png](Verbinden-direkt.png)
 
-Das LAN-Kabel wird in den Laptop und das andere Ende in den Raspberry Pi gesteckt. Dadurch hat der Raspberry Pi keinen Internetezugriff aber wir können auf ihn drauf.
+Das LAN-Kabel wird in den Laptop und das andere Ende in den Raspberry Pi gesteckt. Dadurch hat der Raspberry Pi keinen Internetzugriff aber wir können auf ihn drauf.
 
 ### 5.3 Direktverbindung mit Netzwerkbrücke
 
