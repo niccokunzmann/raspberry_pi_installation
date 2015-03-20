@@ -17,7 +17,7 @@ Diese Gegenstände werden benötigt:
 Folgende Software muss herunter geladen werden:
 
  - [NOOBS Offline and network install](http://www.raspberrypi.org/downloads/) nicht NOOBS LITE
- - [master.zip](https://github.com/niccokunzmann/raspberry_pi_install/archive/master.zip) - dieses Repository
+ - [master.zip](https://github.com/niccokunzmann/raspberry_pi_installation/archive/master.zip) - dieses Repository
  - [Python3](https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi)
  - [MobaXTerm](http://mobaxterm.mobatek.net/download-home-edition.html)
  - [SD Card Formatter](https://www.sdcard.org/downloads/formatter_4/)
