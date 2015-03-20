@@ -35,7 +35,7 @@ Wir befinden uns auf dem Windowscomputer.
 Sie landen wahrscheinlich im Downloads Ordner oder dort, wo man sie hinspeichert.
 Während der Download läuft, können schon einige Programme installiert werden.
 
-_Nebenbei: Diese Dateien sind die selben wie von [raspberrypi.org/downloads](http://www.raspberrypi.org/downloads/). [Diese Anweisungen](http://raspberrypi.stackexchange.com/questions/15192/installing-raspbian-from-noobs-without-display) erzeugen die selben Dateien wir in `master.zip`._
+_Nebenbei: Die Dateien in `master.zip` sind die selben wie in `NOOBS_v1_4_0.zip`. [Diese Anweisungen](http://raspberrypi.stackexchange.com/questions/15192/installing-raspbian-from-noobs-without-display) erzeugen aus `NOOBS_v1_4_0.zip` die selben Dateien wie in `master.zip`._
 
 2. Installation
 ---------------
@@ -64,7 +64,7 @@ Mit dem SD Card Formatter formatieren wir die SD-Karte, sodass wir die benötigt
 5. Auf `Format` klicken.
 6. Die Dialoge verstehen und bestätigen.
 
-Danach ist SD-Karte leer.
+Danach ist die SD-Karte leer.
 
 3. Das Betriebssystem einrichten
 --------------------------------
@@ -86,7 +86,8 @@ Jetzt brauchen wir noch die Datei, die das Betriebssystem enthält. Sie ist in d
 So sieht es dann im Ordner `os\Raspbian` auf der SD-Karte aus.
 ![root.tar.xz.png](root.tar.xz.png)
 
-_Nebenbei: Benutername und Passwort kann man in der Datei [os\Raspbian\os.json](../NOOBS_v1_4_0/os/Raspbian/os.json) ändern. [Mit diesem Tutorial](http://raspberrypi.stackexchange.com/questions/15192/installing-raspbian-from-noobs-without-display) kann man direkt aus `NOOBS_v1_4_0.zip` die SD-Karten Dateien zum automatischen Boot anpassen_
+_Nebenbei: Benutername und Passwort kann man in der Datei [os\Raspbian\os.json](../NOOBS_v1_4_0/os/Raspbian/os.json) ändern. Dazu muss man [Notepad++](http://notepad-plus-plus.org/download/) installieren oder einen anderen Editor, der sich auf Linux-Dateiendungen versteht und nicht alles in einer Zeile anzeigt.  
+[Mit diesem Tutorial](http://raspberrypi.stackexchange.com/questions/15192/installing-raspbian-from-noobs-without-display) kann man direkt aus `NOOBS_v1_4_0.zip` die SD-Karten Dateien zum automatischen Boot anpassen_
 
 
 Sollte man nur WLAN für den Raspberry Pi zur Verfügung haben, kein LAN, dann muss jetzt die WLAN-Konfiguration in Schritt 5.4 geschehen.
