@@ -17,13 +17,12 @@ Diese Gegenstände werden benötigt:
 Folgende Software muss herunter geladen werden:
 
  - [NOOBS Offline and network install](http://www.raspberrypi.org/downloads/) nicht NOOBS LITE
- - [master.zip](https://github.com/niccokunzmann/raspberry_pi_installation/archive/master.zip) - dieses Repository
+ - [master.zip](https://github.com/niccokunzmann/raspberry_pi_installation/archive/master.zip), dieses Repository
  - [python_dhcp_server](https://github.com/niccokunzmann/python_dhcp_server/archive/master.zip)
  - Sollten Administratorrechte zur Installation vorhanden sein, msollte folgende Software heruntergeladen werden:
      - [Python3](https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi)
      - [SD Card Formatter](https://www.sdcard.org/downloads/formatter_4/)
      - [MobaXTerm (Installer Edition)](http://mobaxterm.mobatek.net/download-home-edition.html)
-
  - Sollten keine Administratorrechte vorhanden sein, dann ist diese Software angebracht:
 	 - [MobaXTerm (Portable Edition)](http://mobaxterm.mobatek.net/download-home-edition.html)
 	 - [Portable Python 3](http://portablepython.com/wiki/PortablePython3.2.5.1/)
