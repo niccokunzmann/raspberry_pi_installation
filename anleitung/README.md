@@ -230,6 +230,7 @@ _Nebenbei: Manche Einträge sind alt und die Rechner gibt es nicht mehr. Um das 
      - Desktop booten einschalten, dass man beim Start nicht in der Kommandozeile landet
      - Die Sprache ändern
      - Die Kamera anschalten
+     - Den Hostnamen ändern, damit man den Raspberry Pi im Netzwerk besser wiederfindet
 7. Finish
 8. Mit dem Befehl 
 
