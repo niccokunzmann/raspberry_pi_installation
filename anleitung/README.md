@@ -267,13 +267,15 @@ In der Session von MobaXTerm kann man Programme starten.
 
 Das `&` dahinter führt dazu, dass man mehrere Befehle eingeben kann.
 
-### Taskbar verschwinden lassen
+### Taskleiste verschwinden lassen
 
-Die Task Bar befindet sich jetzt oben und blockiert die Fenster. Man kann die Task Bar automatisch verstecken. Dazu muss man etwas editieren:
+Die Taskleiste befindet sich jetzt oben und blockiert die Fenster. Man kann die Taskleiste automatisch verstecken. Dazu muss man etwas editieren:
 
     nano ~/.config/lxpanel/LXDE/panels/panel
 
-Wo `autohide=0` steht muss `autohide=1` hin, damit die Task Bar sich versteckt. `Strg+o` speichert, `Strg+x` schließt den Editor. Danach muss `lxsession` neu gestartet werden.
+Wo `autohide=0` steht muss `autohide=1` hin, damit die Taskleiste sich versteckt.  
+Wo `edge=` steht, kann in die Zeile `edge=top` oder `edge=bottom`, um die Taskleiste oben oder unten anzuzeigen.  
+`Strg+o` speichert, `Strg+x` schließt den Editor. Danach muss `lxsession` neu gestartet werden.
 
 Quellen
 -------
@@ -282,4 +284,4 @@ Quellen
  - [Automatisieren der Installation von NOOBS](http://raspberrypi.stackexchange.com/questions/15192/installing-raspbian-from-noobs-without-display)
  - [Auf den Raspberry Pi zugreifen](http://www.raspberrypi.org/forums/viewtopic.php?f=26&t=21610)
  - [Linux WLAN](http://www.cyberciti.biz/faq/debian-linux-wpa-wpa2-wireless-wifi-networking/)
- - [`lxsession` hat keine Task Bar](http://www.raspberrypi.org/forums/viewtopic.php?p=217773#p217773)
+ - [`lxsession` hat keine Taskleiste](http://www.raspberrypi.org/forums/viewtopic.php?p=217773#p217773)
