@@ -54,7 +54,7 @@ MobaXTerm erlaubt es uns, sowohl die Kommandozeile als auch die grafische Oberfl
 
 **[MobaXTerm](http://mobaxterm.mobatek.net/download-home-edition.html) herunterladen und installieren oder entpacken.**
 
-Mit dem SD Card Formatter formatieren wir die SD-Karte, sodass wir die benötigten Dateien für das Betriebssystem des Raspberry Pi darauf kopieren können.
+Mit dem SD Card Formatter formatieren wir die SD-Karte, sodass wir die benötigten Dateien für das Betriebssystem des Raspberry Pi darauf kopieren können. Er löscht die gesamte SD-Karte und braucht dafür Administratorrechte.
 
 **[SD Card Formatter](https://www.sdcard.org/downloads/formatter_4/) herunterladen und installieren.**
 
@@ -84,6 +84,8 @@ Den Computer/Arbeitsplatz öffnen z.B. mit `Windowstaste+e`
 2. Format
 3. Fat32 einstellen
 4. Start
+
+Jetzt wurde nur der sichtbare Teil der SD-Karte gelöscht. Wenn schon einmal ein Betriebssystem darauf installiert wurde, dann befindet es sich immernoch darauf, kann aber nicht mehr starten.
 
 3. Das Betriebssystem einrichten
 --------------------------------
