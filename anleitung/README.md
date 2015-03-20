@@ -28,11 +28,11 @@ Folgende Software muss herunter geladen werden:
 
 Wir befinden uns auf dem Windowscomputer. 
 
-**Die Datei [`master.zip`](https://github.com/niccokunzmann/raspberry_pi_auto_install/archive/master.zip) muss runtergeladen werden.** 
+**Die Datei [`master.zip`](https://github.com/niccokunzmann/raspberry_pi_auto_install/archive/master.zip) muss heruntergeladen werden.** 
 
-**Die Datei [`NOOBS_v1_4_0.zip`](https://github.com/niccokunzmann/raspberry_pi_auto_install/archive/master.zip) muss runtergeladen werden.** 
+**Die Datei [`NOOBS_v1_4_0.zip`](https://github.com/niccokunzmann/raspberry_pi_auto_install/archive/master.zip) muss heruntergeladen werden.** 
 
-Sie landen wahrscheinlich im Downloads Ordner oder dort, wo man sie hinspeichert.
+Sie landen wahrscheinlich im Downloads-Ordner oder dort, wo man sie hinspeichert.
 Während der Download läuft, können schon einige Programme installiert werden.
 
 _Nebenbei: Die Dateien in `master.zip` sind die selben wie in `NOOBS_v1_4_0.zip`. [Diese Anweisungen](http://raspberrypi.stackexchange.com/questions/15192/installing-raspbian-from-noobs-without-display) erzeugen aus `NOOBS_v1_4_0.zip` die selben Dateien wie in `master.zip`._
@@ -140,8 +140,8 @@ Da Option 5.2 keinen Internetzugriff bietet aber man den Raspberry Pi nicht imme
 
 ![Verbinden-wlan-router.png](Verbinden-wlan-router.png)
 
-Man kann in [os\Raspbian\root.tar.xz](../NOOBS_v1_4_0/os/Raspbian/root.tar.xz) die Daten editieren und das WLAN einrichten. Zum Öffnen der Datei `os\Raspbian\root.tar.xz` braucht man [7Zip](http://7-zip.org/download.html), zum Editieren [Notepad++](http://notepad-plus-plus.org/download/).  
-Die Datei `/etc/network/interfaces` vorher:
+Man kann in [`os\Raspbian\root.tar.xz`](../NOOBS_v1_4_0/os/Raspbian/root.tar.xz) die Daten editieren und das WLAN einrichten. Zum Öffnen der Datei `os\Raspbian\root.tar.xz` braucht man [7Zip](http://7-zip.org/download.html), zum Editieren [Notepad++](http://notepad-plus-plus.org/download/).  
+Die Datei `/etc/network/interfaces` in dem Archiv `os\Raspbian\root.tar.xz` vorher:
 
     auto lo
     
@@ -168,7 +168,7 @@ Nachher:
     wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
     iface default inet dhcp
 
-Wenn das WLAN kein Passwort braucht, dann kann man die Zeile mit `wpa-psk` weglassen. Wenn man sich einmal verbunden hat, kann man auch Start>Internet>wpagui verwenden, um das WLAN einzurichten.
+`WLAN_NAME` muss mit dem WLAN-Namen ersetzt werden. `WLAN_PASSWORT` muss mit dem WLAN-Passwort ersetzt werden. Wenn das WLAN kein Passwort braucht, dann kann man die Zeile mit `wpa-psk` weglassen. Wenn man sich einmal verbunden hat, kann man auch Start>Internet>wpagui verwenden, um das WLAN einzurichten.
 
 Der Raspberry Pi würde dann nach dem Neustart mit einem USB-WLAN-Stick sich zu dem WLAN verbinden. Das Problem dabei: Ist ein Fehler drin und der Raspberry Pi verbindet sich nicht, muss man von vorne installieren.
 
@@ -221,7 +221,7 @@ _Nebenbei: Manche Einträge sind alt und die Rechner gibt es nicht mehr. Um das 
 
     ![neue-session-2.png](neue-session-2.png)
 
-4. Die neu erstelle Session auswählen und starten.
+4. Die neu erstellte Session auswählen und starten.
 5. Nutzername `pi` und Passwort `raspberry` eingeben.
 6. Beim ersten Start wird eine Konfiguration verlangt. Dazu muss man `sudo raspi-config` eingeben und ENTER drücken. Man kann dort
      - Das Passwort setzen
