@@ -140,14 +140,35 @@ Da Option 5.2 keinen Internetzugriff bietet aber man den Raspberry Pi nicht imme
 
 ![Verbinden-wlan-router.png](Verbinden-wlan-router.png)
 
-Nicht zu empfehlen. 
+Man kann in [os\Raspbian\root.tar.xz](../NOOBS_v1_4_0/os/Raspbian/root.tar.xz) die Daten editieren und das WLAN einrichten. Zum Öffnen der Datei `os\Raspbian\root.tar.xz` braucht man [7Zip](http://7-zip.org/download.html), zum Editieren [Notepad++](http://notepad-plus-plus.org/download/).  
+Die Datei `/etc/network/interfaces` vorher:
 
-Man kann in [os\Raspbian\root.tar.xz](../NOOBS_v1_4_0/os/Raspbian/root.tar.xz) die Datei `/etc/network/interfaces` editieren und das WLAN einrichten. Folgende Zeilen müssen zur Datei hinzugefügt werden:
+    auto lo
+    
+    iface lo inet loopback
+    iface eth0 inet dhcp
+    
+    allow-hotplug wlan0
+    iface wlan0 inet manual
+    wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
+    iface default inet dhcp
 
-    auto wlan0
+Nachher:
+
+    auto lo
+    
+    iface lo inet loopback
+    iface eth0 inet dhcp
+    
+    allow-hotplug wlan0
+    #iface wlan0 inet manual
     iface wlan0 inet dhcp
-        wpa-ssid YOUR-SSID-HERE
-        wpa-psk YOUR-PASSWORD-HERE
+        wpa-ssid WLAN_NAME
+        wpa-psk WLAN_PASSWORT
+    wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
+    iface default inet dhcp
+
+Wenn das WLAN kein Passwort braucht, dann kann man die Zeile mit `wpa-psk` weglassen. Wenn man sich einmal verbunden hat, kann man auch Start>Internet>wpagui verwenden, um das WLAN einzurichten.
 
 Der Raspberry Pi würde dann nach dem Neustart mit einem USB-WLAN-Stick sich zu dem WLAN verbinden. Das Problem dabei: Ist ein Fehler drin und der Raspberry Pi verbindet sich nicht, muss man von vorne installieren.
 
@@ -214,7 +235,9 @@ _Nebenbei: Manche Einträge sind alt und die Rechner gibt es nicht mehr. Um das 
     das Betriebssystem aktualisieren. Das geht nur mit Internetzugriff.
 9. Um die grafische Oberfläche zu fixen, muss dieser Befehl ausgeführt werden: 
 
-        rm -r ~/.config/lxpanel/LXDE;cp -rp ~/.config/lxpanel/LXDE-pi/ ~/.config/lxpanel/LXDE
+        rm -r ~/.config/lxpanel/LXDE;(cp -rp ~/.config/lxpanel/LXDE-pi/ ~/.config/lxpanel/LXDE || cp -rp /etc/xdg/lxpanel/profile/LXDE ~/.config/lxpanel/LXDE)
+
+    Wenn der Pi mit grafischer Oberfläche gestartet wird, dann wird die Oberfläche verwendet, die oben eine graue Taskleiste anzeigt. Sonst wird die Standartoberfläche verwendet, die unten eine schwarze Taskleiste anzeigt.
 
 10. Mit dem Befehl `lxsession &` kann man jetzt die Oberfläche des Raspberry Pi starten. Manche Befehle, die verwendet werden können, sind in 9. beschrieben.
 
