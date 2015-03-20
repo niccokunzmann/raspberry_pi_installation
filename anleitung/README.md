@@ -101,7 +101,7 @@ Jetzt sind alle notwendigen Dateien auf der SD-Karte und das Betriebssystem kann
 2. Raspberry Pi mit Strom versorgen.
 3. Eventuell einen Bildschirm anschließen, um bei der Installation zuzusehen. 
 
-Die Installation kann man sich auch [hier](http://www.raspberrypi.org/help/noobs-setup/) ansehen.
+Die Installation kann man sich auch [hier](http://www.raspberrypi.org/help/noobs-setup/) ansehen. Die Lichter des Raspberry Pi sollten dabei blinken oder leuchten. Wenn nur das rote PWR-Licht leuchtet, dann muss er neu gestartet werden, da er nichts macht.
 
 
 5. Den Raspberry Pi mit dem Rechner Verbinden
