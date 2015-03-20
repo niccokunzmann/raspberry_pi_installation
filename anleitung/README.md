@@ -28,7 +28,7 @@ Folgende Software muss herunter geladen werden:
 
 Wir befinden uns auf dem Windowscomputer. 
 
-**Die Datei [`master.zip`](https://github.com/niccokunzmann/raspberry_pi_install/archive/master.zip) muss heruntergeladen werden.** 
+**Die Datei [`raspberry_pi_installation-master.zip`](https://github.com/niccokunzmann/raspberry_pi_installation/archive/master.zip) muss heruntergeladen werden.** 
 
 **Die Datei [`NOOBS_v1_4_0.zip`](http://www.raspberrypi.org/downloads/) muss heruntergeladen werden.** 
 
@@ -37,7 +37,7 @@ Es gibt auch `NOOBS LITE` aber das ist nicht gemeint.
 Die Dateien landen wahrscheinlich im Downloads-Ordner oder dort, wo man sie hinspeichert.
 Während der Download läuft, können schon einige Programme installiert werden.
 
-_Nebenbei: Die Dateien in `master.zip` sind die selben wie in `NOOBS_v1_4_0.zip`. [Diese Anweisungen](http://raspberrypi.stackexchange.com/questions/15192/installing-raspbian-from-noobs-without-display) erzeugen aus `NOOBS_v1_4_0.zip` die selben Dateien wie in `master.zip`._
+_Nebenbei: Die Dateien in `raspberry_pi_installation-master.zip` sind die selben wie in `NOOBS_v1_4_0.zip`. [Diese Anweisungen](http://raspberrypi.stackexchange.com/questions/15192/installing-raspbian-from-noobs-without-display) erzeugen aus `NOOBS_v1_4_0.zip` die selben Dateien wie in `raspberry_pi_installation-master.zip`._
 
 2. Installation
 ---------------
@@ -71,9 +71,9 @@ Danach ist die SD-Karte leer.
 3. Das Betriebssystem einrichten
 --------------------------------
 
-In der heruntergeladenen Datei  [`master.zip`](https://github.com/niccokunzmann/raspberry_pi_install/archive/master.zip) befinden sich die Installationsdateien für das Betriebssystem, die schon zur automatischen Installation angepasst wurden.
+In der heruntergeladenen Datei  [`raspberry_pi_installation-master.zip`](https://github.com/niccokunzmann/raspberry_pi_installation/archive/master.zip) befinden sich die Installationsdateien für das Betriebssystem, die schon zur automatischen Installation angepasst wurden.
 
-**`master.zip` öffnen und alle Dateien, die im Ordner [`NOOBS_v1_4_0`](../NOOBS_v1_4_0) sind, auf die SD-Karte kopieren.**
+**`raspberry_pi_installation-master.zip` öffnen und alle Dateien, die im Ordner [`NOOBS_v1_4_0`](../NOOBS_v1_4_0) sind, auf die SD-Karte kopieren.**
 
 Danach befinden sich solche Dateien unmittelbar auf der SD-Karte:
 
