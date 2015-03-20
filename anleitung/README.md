@@ -266,14 +266,14 @@ Der Prozess, um den Raspberry Pi zu verwenden sieht dann in Zukunft wie folgt au
 In der Session von MobaXTerm kann man Programme starten.
 
  - `lxsession` startet den Desktop
- - `idle3 &` started die Python Shell
- - `pcmanfm &` startet den Dateibrowser
  - `startx` startet die grafische Oberfläche, wenn man sich mit Maus, Bildschirm und Tastatur davor befindet
  - `sudo raspi-config` startet die Konfiguration für den Raspberrry Pi
+ - `idle3 &` started die Python Shell
+ - `pcmanfm &` startet den Dateibrowser
 
 Das `&` dahinter führt dazu, dass man mehrere Befehle eingeben kann.
 
-### Taskleiste verschwinden lassen
+### 9.1 Taskleiste verschwinden lassen
 
 Die Taskleiste befindet sich jetzt oben und blockiert die Fenster. Man kann die Taskleiste automatisch verstecken. Dazu muss man etwas editieren:
 
@@ -283,8 +283,8 @@ Wo `autohide=0` steht muss `autohide=1` hin, damit die Taskleiste sich versteckt
 Wo `edge=` steht, kann in die Zeile `edge=top` oder `edge=bottom`, um die Taskleiste oben oder unten anzuzeigen.  
 `Strg+o` speichert, `Strg+x` schließt den Editor. Danach muss `lxsession` neu gestartet werden.
 
-Quellen
--------
+10. Quellen
+-----------
 
  - [Installation von NOOBS](http://www.raspberrypi.org/help/noobs-setup/)
  - [Automatisieren der Installation von NOOBS](http://raspberrypi.stackexchange.com/questions/15192/installing-raspbian-from-noobs-without-display)
