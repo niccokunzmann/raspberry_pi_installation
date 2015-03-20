@@ -107,13 +107,13 @@ Die Installation kann man sich auch [hier](http://www.raspberrypi.org/help/noobs
 5. Den Raspberry Pi mit dem Rechner Verbinden
 ---------------------------------------------
 
-Es gibt mehrere Möglichkeiten, sich mit dem Raspberry Pi zu verbinden. Am besten in der Reihenfolge sehen, ob sie in diesem Fall passen.
+Es gibt mehrere Möglichkeiten, sich mit dem Raspberry Pi zu verbinden. Am besten in der Reihenfolge sehen, ob sie in diesem Fall passen. Internetzugriff für den Raspberry Pi ist nicht wichtig und wird nur benötigt, um neue Software zu installieren. 
 
-1. Über ein bestehendes Netzwerk wie es zu Hause besteht
-2. Eine Direktverbindung ohne Internet für den Raspberry Pi
-3. Eine Direktverbindung mit Netzwerkbrücke
-4. WLAN
-5. Maus und Tastatur mit Bildschirm
+1. Über ein bestehendes Netzwerk wie es zu Hause besteht mit Internetzugriff
+2. Eine Direktverbindung für den Raspberry Pi ohne Internetzugriff
+3. Eine Direktverbindung mit Netzwerkbrücke mit Internetzugriff
+4. WLAN mit Internetzugriff
+5. Maus und Tastatur mit Bildschirm ohne Internetzugriff
 
 ### 5.1 Verbindung über ein bestehendes Netzwerk
 
@@ -126,7 +126,7 @@ Der Raspberry Pi erhält Internetzugriff.
 
 ![Verbinden-direkt.png](Verbinden-direkt.png)
 
-Das LAN-Kabel wird in den Laptop und das andere Ende in den Raspberry Pi gesteckt. Dadurch hat der Raspberry Pi keinen Interntezugriff aber wir können auf ihn drauf.
+Das LAN-Kabel wird in den Laptop und das andere Ende in den Raspberry Pi gesteckt. Dadurch hat der Raspberry Pi keinen Internetezugriff aber wir können auf ihn drauf.
 
 ### 5.3 Direktverbindung mit Netzwerkbrücke
 
