@@ -161,7 +161,7 @@ Da Option 5.2 keinen Internetzugriff bietet aber man den Raspberry Pi nicht imme
 
 Dazu braucht man einen USB-WLAN-Adapter. Dies ist eine Option, wenn Kein LAN-Kabel bereit steht. Sollte die Verbindung mit dem WLAN nicht gehen, muss neu installiert werden. Ein Versuch dauert also mindestens eine halbe Stunde.
 
-Man kann in [`os\Raspbian\root.tar.xz`](../NOOBS_v1_4_0/os/Raspbian/root.tar.xz) die Daten editieren und das WLAN einrichten. Zum Öffnen der Datei `os\Raspbian\root.tar.xz` braucht man [7Zip](http://7-zip.org/download.html), zum Editieren [Notepad++](http://notepad-plus-plus.org/download/).  
+Man kann in [`os\Raspbian\root.tar.xz`](../NOOBS_v1_4_0/os/Raspbian/root.tar.xz) die Daten editieren und das WLAN einrichten. Zum Öffnen der Datei `os\Raspbian\root.tar.xz` braucht man [7Zip](http://7-zip.org/download.html), zum Editieren [Notepad++](http://notepad-plus-plus.org/download/) oder einen anderen Editor, der mit Linuxzeilenumbrüchen klarkommt und nicht alles in einer Zeile anzeigt.  
 Die Datei `/etc/network/interfaces` in dem Archiv `os\Raspbian\root.tar.xz` vorher:
 
     auto lo
