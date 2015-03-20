@@ -236,7 +236,7 @@ Der Prozess, um den Raspberry Pi zu verwenden sieht dann in Zukunft wie folgt au
 
 In der Session von MobaXTerm kann man Programme starten.
 
- - `lxsession &` startet den Desktop
+ - `lxsession` startet den Desktop
  - `idle3 &` started die Python Shell
  - `pcmanfm &` startet den Dateibrowser
  - `startx` startet die grafische Oberfläche, wenn man sich mit Maus, Bildschirm und Tastatur davor befindet
@@ -250,7 +250,7 @@ Die Task Bar befindet sich jetzt oben und blockiert die Fenster. Man kann die Ta
 
     nano ~/.config/lxpanel/LXDE/panels/panel
 
-Wo `autohide=0` steht muss `autohide=1` hin, damit die Task Bar sich versteckt. `Strg+o` speichert, `Strg+x` schließt den Editor.
+Wo `autohide=0` steht muss `autohide=1` hin, damit die Task Bar sich versteckt. `Strg+o` speichert, `Strg+x` schließt den Editor. Danach muss `lxsession` neu gestartet werden.
 
 Quellen
 -------
