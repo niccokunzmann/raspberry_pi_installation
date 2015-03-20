@@ -18,10 +18,16 @@ Folgende Software muss herunter geladen werden:
 
  - [NOOBS Offline and network install](http://www.raspberrypi.org/downloads/) nicht NOOBS LITE
  - [master.zip](https://github.com/niccokunzmann/raspberry_pi_installation/archive/master.zip) - dieses Repository
- - [Python3](https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi)
- - [MobaXTerm](http://mobaxterm.mobatek.net/download-home-edition.html)
- - [SD Card Formatter](https://www.sdcard.org/downloads/formatter_4/)
  - [python_dhcp_server](https://github.com/niccokunzmann/python_dhcp_server/archive/master.zip)
+
+ - Sollten Administratorrechte zur Installation vorhanden sein, msollte folgende Software heruntergeladen werden:
+     - [Python3](https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi)
+     - [SD Card Formatter](https://www.sdcard.org/downloads/formatter_4/)
+     - [MobaXTerm (Installer Edition)](http://mobaxterm.mobatek.net/download-home-edition.html)
+
+ - Sollten keine Administratorrechte vorhanden sein, dann ist diese Software angebracht:
+	 - [MobaXTerm (Portable Edition)](http://mobaxterm.mobatek.net/download-home-edition.html)
+	 - [Portable Python 3](http://portablepython.com/wiki/PortablePython3.2.5.1/)
 
 1. Download
 -----------
@@ -57,6 +63,8 @@ Mit dem SD Card Formatter formatieren wir die SD-Karte, sodass wir die benötigt
 3. Die SD-Karte Formatieren
 ---------------------------
 
+### 3.1 Die SD-Karte Formatieren mit Administratorrechten
+
 ![SD-Card-Formatter.png](SD-Card-Formatter.png)
 
 1. Die SD-Karte kontrollieren, dass der Schalter nicht auf LOCK steht.
@@ -67,6 +75,17 @@ Mit dem SD Card Formatter formatieren wir die SD-Karte, sodass wir die benötigt
 6. Die Dialoge verstehen und bestätigen.
 
 Danach ist die SD-Karte leer.
+
+### 3.2 Die SD-Karte Formatieren ohne Administratorrechte
+
+![format-ohne-admin2.png](format-ohne-admin2.png)
+
+Den Computer/Arbeitsplatz öffnen z.B. mit `Windowstaste+e`
+
+1. Rechtsklick auf die SD-Karte
+2. Format
+3. Fat32 einstellen
+4. Start
 
 3. Das Betriebssystem einrichten
 --------------------------------
@@ -195,10 +214,14 @@ Diese Dateien sollten sich dann in einem Ordner befinden:
 
 **Das Programm `dhcpgui` ausführen** 
 
-Dazu muss zuerst [Python3](https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi) installiert worden sein.  
-Es öffnet sich ein solches Fenster:
+Dazu muss zuerst [Python 3](https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi) installiert worden sein. Dann kann man die Datei doppelklicken und ausführen.
+Ohne Administratorrechte muss `dhcpgui` auf [`Python-Portable`](http://portablepython.com/wiki/PortablePython3.2.5.1/) gezogen werden, wie hier gezeigt:
 
-![IP-Finden.png](IP-Finden.png)
+![Starten von dhcpgui ohne Administratorrechte](dhcp-portable.png)
+
+Es öffnet sich ein solches Fenster:  
+
+![Es werden Mac-Adresse, Ip-Adresse und Rechnername aufgelistet.](IP-Finden.png)
 
 Einträge wie
 
@@ -219,11 +242,11 @@ _Nebenbei: Manche Einträge sind alt und die Rechner gibt es nicht mehr. Um das 
 1. MobaXTerm Personal Edition starten.
 2. Neue Session anlegen.   
 
-     ![neue-session.png](neue-session.png)
+     ![Auf das Session symbol muss geklickt werden.](neue-session.png)
 
 3. SSH auswählen, IP-Adresse einfüllen und OK klicken.
 
-    ![neue-session-2.png](neue-session-2.png)
+    ![Eine neue SSH-Session wird in MobaXTerm erstellt. Der Raspberry Pi hat in diesem Falle die IP-Adresse "192.168.0.105".](neue-session-2.png)
 
 4. Die neu erstellte Session auswählen und starten.
 5. Nutzername `pi` und Passwort `raspberry` eingeben.
