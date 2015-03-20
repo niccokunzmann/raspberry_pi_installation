@@ -189,8 +189,9 @@ Diese Dateien sollten sich dann in einem Ordner befinden:
 
 ![dhcpserver-dateien.png](dhcpserver-dateien.png)
 
-**Das Programm `dhcpgui` ausführen**
+**Das Programm `dhcpgui` ausführen** 
 
+Dazu muss zuerst [Python3](https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi) installiert worden sein.  
 Es öffnet sich ein solches Fenster:
 
 ![IP-Finden.png](IP-Finden.png)
@@ -203,7 +204,7 @@ bedeuten, dass es im Netzwerk jemanden gibt, der von sich behauptet, `raspberryp
 
 Wenn der Raspberry Pi nicht auftaucht, kann ihn neuzustarten helfen. Wenn er dann immernoch nicht auftaucht, weiß ich auch nicht.
 
-_Nebenbei: Manche Einträge sind alt und die Rechner gibt es nicht mehr. Um das Netzwerk neu aufzunehmen, muss man die Datei `ips.csv` löschen und neu starten. Dieses Programm weist auch IP-Adressen zu. Das geschieht verspätet, also wirkt es nur im Fall 5.2._
+_Nebenbei: Manche Einträge sind alt und die Rechner gibt es nicht mehr. Um das Netzwerk neu aufzunehmen, muss man die Datei `ips.csv` löschen und das Programm `dhcpgui` neu starten. Dieses Programm weist auch IP-Adressen zu. Das geschieht verzögert, also wirkt es nur im Fall 5.2._
 
 
 7. Zum Raspberry Pi verbinden.
