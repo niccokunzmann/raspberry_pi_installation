@@ -23,7 +23,7 @@ Folgende Software muss herunter geladen werden:
      - [Python3](https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi)
      - [SD Card Formatter](https://www.sdcard.org/downloads/formatter_4/)
      - [MobaXTerm (Installer Edition)](http://mobaxterm.mobatek.net/download-home-edition.html)
- - Sollten es nicht möglich sein, Software zu installieren, dann ist diese Software angebracht:
+ - Sollte es nicht möglich sein, Software zu installieren, dann ist diese Software angebracht:
 	 - [MobaXTerm (Portable Edition)](http://mobaxterm.mobatek.net/download-home-edition.html)
 	 - [Portable Python 3](http://portablepython.com/wiki/PortablePython3.2.5.1/)
 
