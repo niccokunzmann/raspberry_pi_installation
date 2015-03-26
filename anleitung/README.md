@@ -18,14 +18,12 @@ Folgende Software muss herunter geladen werden:
 
  - [NOOBS Offline and network install](http://www.raspberrypi.org/downloads/) nicht NOOBS LITE
  - [master.zip](https://github.com/niccokunzmann/raspberry_pi_installation/archive/master.zip), dieses Repository
- - [python_dhcp_server](https://github.com/niccokunzmann/python_dhcp_server/archive/master.zip)
+ - [python\_dhcp\_server\_standalone](https://github.com/niccokunzmann/python_dhcp_server/releases)
  - Sollten Administratorrechte zur Installation vorhanden sein, sollte folgende Software heruntergeladen werden:
-     - [Python3](https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi)
      - [SD Card Formatter](https://www.sdcard.org/downloads/formatter_4/)
      - [MobaXTerm (Installer Edition)](http://mobaxterm.mobatek.net/download-home-edition.html)
  - Sollte es nicht möglich sein, Software zu installieren, dann ist diese Software angebracht:
 	 - [MobaXTerm (Portable Edition)](http://mobaxterm.mobatek.net/download-home-edition.html)
-	 - [Portable Python 3](http://portablepython.com/wiki/PortablePython3.2.5.1/)
 
 1. Download
 -----------
@@ -45,10 +43,6 @@ _Nebenbei: Die Dateien in `raspberry_pi_installation-master.zip` sind die selben
 
 2. Installation
 ---------------
-
-Python3 muss installiert werden, um später die Netzwerkadresse des Raspberry Pis herauszubekommen.
-
-**[Python3](https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi) herunterladen und installieren.**
 
 MobaXTerm erlaubt es uns, sowohl die Kommandozeile als auch die grafische Oberfläche des Raspberry Pi zu benutzen.
 
@@ -206,18 +200,9 @@ Das ist die einfache Variante, wenn die Hardware vorhanden ist. Klärt aber imme
 
 Sobald das  Betriebssystem Raspberian auf dem Raspberry Pi erfolgreich installiert wurde, startet der Raspberry Pi neu und meldet sich im Netzwerk an.
 
-**[pythondhcpserver](https://github.com/niccokunzmann/python_dhcp_server/archive/master.zip) herunterladen und entpacken.**
+**[python\_dhcp\_server\_standalone](https://github.com/niccokunzmann/python_dhcp_server/releases) herunterladen und entpacken.**
 
-Diese Dateien sollten sich dann in einem Ordner befinden:
-
-![dhcpserver-dateien.png](dhcpserver-dateien.png)
-
-**Das Programm `dhcpgui` ausführen** 
-
-Dazu muss zuerst [Python 3](https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi) installiert worden sein. Dann kann man die Datei doppelklicken und ausführen.
-Ohne Administratorrechte muss `dhcpgui` auf [`Python-Portable`](http://portablepython.com/wiki/PortablePython3.2.5.1/) gezogen werden, wie hier gezeigt:
-
-![Starten von dhcpgui ohne Administratorrechte](dhcp-portable.png)
+**Das Programm `DHCPGui.exe` ausführen** 
 
 Es öffnet sich ein solches Fenster:  
 
