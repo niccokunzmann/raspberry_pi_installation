@@ -81,7 +81,7 @@ Den Computer/Arbeitsplatz öffnen z.B. mit `Windowstaste+e`
 
 Jetzt wurde nur der sichtbare Teil der SD-Karte gelöscht. Wenn schon einmal ein Betriebssystem darauf installiert wurde, dann befindet es sich immernoch darauf, kann aber nicht mehr starten.
 
-3. Das Betriebssystem einrichten
+4.1 Das Betriebssystem einrichten
 --------------------------------
 
 In der heruntergeladenen Datei  [`raspberry_pi_installation-master.zip`](https://github.com/niccokunzmann/raspberry_pi_installation/archive/master.zip) befinden sich die Installationsdateien für das Betriebssystem, die schon zur automatischen Installation angepasst wurden.
@@ -107,7 +107,7 @@ _Nebenbei: Benutername und Passwort kann man in der Datei [os\Raspbian\os.json](
 
 Sollte man nur WLAN für den Raspberry Pi zur Verfügung haben, kein LAN, dann muss jetzt die WLAN-Konfiguration in Schritt 5.4 geschehen.
 
-4. Das Betriebssystem installieren
+4.2 Das Betriebssystem installieren
 ----------------------------------
 
 Jetzt sind alle notwendigen Dateien auf der SD-Karte und das Betriebssystem kann installiert werden. Das dauert eine halbe bis eine Stunde.
