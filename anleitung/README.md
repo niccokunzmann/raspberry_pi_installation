@@ -60,7 +60,7 @@ Mit dem SD Card Formatter formatieren wir die SD-Karte, sodass wir die benötigt
 ![SD-Card-Formatter.png](SD-Card-Formatter.png)
 
 1. Die SD-Karte kontrollieren, dass der Schalter nicht auf LOCK steht.
-2. Die SD-Karte in den Rechner einführen.
+2. Die SD-Karte in den SD-Kartenleser des Rechners stecken.
 3. SD Card Formatter starten.
 4. Bei `Drive:` die richitge SD-Karte auswählen, da nach Schritt 6 alle Dateien gelöscht werden.
 5. Auf `Format` klicken.
