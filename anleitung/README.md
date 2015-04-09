@@ -1,7 +1,7 @@
 Raspberry Pi Installation unter Windows
 =======================================
 
-Diese Installation kann ohne Maus und Tastatur durchgeführt werden. Wenn die Anleitung schon einmal durchlaufen wurde, kann zu 8. gesprungen werden. Diese Anleitung funktioniert auch, ohne Software zu installieren.
+Diese Installation kann ohne Maus und Tastatur für den Pi durchgeführt werden. Wenn die Anleitung schon einmal durchlaufen wurde, kann zu 8. gesprungen werden. Diese Anleitung funktioniert auch, ohne Software zu installieren.
 
 Vorbereitung
 ------------
