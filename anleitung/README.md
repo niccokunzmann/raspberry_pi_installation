@@ -241,7 +241,7 @@ _Nebenbei: Manche Einträge sind alt und die Rechner gibt es nicht mehr. Um das 
      - Die Sprache ändern
      - Die Kamera anschalten
      - Den Hostnamen ändern, damit man den Raspberry Pi im Netzwerk besser wiederfindet
-7. Finish
+7. Finish und neustarten.
 8. Mit dem Befehl 
 
         sudo apt-get -y update; sudo apt-get -y dist-upgrade; sudo apt-get  -y autoremove;sudo apt-get -y autoclean
