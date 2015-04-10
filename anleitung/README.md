@@ -1,7 +1,7 @@
 Raspberry Pi Installation unter Windows
 =======================================
 
-Diese Installation kann ohne Maus und Tastatur durchgeführt werden. Wenn die Anleitung schon einmal durchlaufen wurde, kann zu 8. gesprungen werden. Diese Anleitung funktioniert auch, ohne Software zu installieren.
+Diese Installation kann ohne Maus und Tastatur für den Pi durchgeführt werden. Wenn die Anleitung schon einmal durchlaufen wurde, kann zu 8. gesprungen werden. Diese Anleitung funktioniert auch, ohne Software zu installieren.
 
 Vorbereitung
 ------------
@@ -60,7 +60,7 @@ Mit dem SD Card Formatter formatieren wir die SD-Karte, sodass wir die benötigt
 ![SD-Card-Formatter.png](SD-Card-Formatter.png)
 
 1. Die SD-Karte kontrollieren, dass der Schalter nicht auf LOCK steht.
-2. Die SD-Karte in den Rechner einführen.
+2. Die SD-Karte in den SD-Kartenleser des Rechners stecken.
 3. SD Card Formatter starten.
 4. Bei `Drive:` die richitge SD-Karte auswählen, da nach Schritt 6 alle Dateien gelöscht werden.
 5. Auf `Format` klicken.
@@ -81,7 +81,7 @@ Den Computer/Arbeitsplatz öffnen z.B. mit `Windowstaste+e`
 
 Jetzt wurde nur der sichtbare Teil der SD-Karte gelöscht. Wenn schon einmal ein Betriebssystem darauf installiert wurde, dann befindet es sich immernoch darauf, kann aber nicht mehr starten.
 
-3. Das Betriebssystem einrichten
+4.1 Das Betriebssystem einrichten
 --------------------------------
 
 In der heruntergeladenen Datei  [`raspberry_pi_installation-master.zip`](https://github.com/niccokunzmann/raspberry_pi_installation/archive/master.zip) befinden sich die Installationsdateien für das Betriebssystem, die schon zur automatischen Installation angepasst wurden.
@@ -107,7 +107,7 @@ _Nebenbei: Benutername und Passwort kann man in der Datei [os\Raspbian\os.json](
 
 Sollte man nur WLAN für den Raspberry Pi zur Verfügung haben, kein LAN, dann muss jetzt die WLAN-Konfiguration in Schritt 5.4 geschehen.
 
-4. Das Betriebssystem installieren
+4.2 Das Betriebssystem installieren
 ----------------------------------
 
 Jetzt sind alle notwendigen Dateien auf der SD-Karte und das Betriebssystem kann installiert werden. Das dauert eine halbe bis eine Stunde.
@@ -253,7 +253,7 @@ _Nebenbei: Manche Einträge sind alt und die Rechner gibt es nicht mehr. Um das 
 
     Wenn der Pi mit grafischer Oberfläche gestartet wird, dann wird die Oberfläche verwendet, die oben eine graue Taskleiste anzeigt. Sonst wird die Standartoberfläche verwendet, die unten eine schwarze Taskleiste anzeigt.
 
-10. Mit dem Befehl `lxsession &` kann man jetzt die Oberfläche des Raspberry Pi starten. Manche Befehle, die verwendet werden können, sind in 9. beschrieben.
+10. Mit dem Befehl `lxsession` kann man jetzt die Oberfläche des Raspberry Pi starten. Manche Befehle, die verwendet werden können, sind in 9. beschrieben.
 
 ![lxsession.png](lxsession.png)
 
