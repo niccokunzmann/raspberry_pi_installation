@@ -245,7 +245,7 @@ _Nebenbei: Manche Einträge sind alt und die Rechner gibt es nicht mehr. Um das 
 8. Mit dem Befehl 
 
         sudo apt-get -y update; sudo apt-get -y dist-upgrade; \
-        sudo apt-get  -y autoremove;sudo apt-get -y autoclean
+        sudo apt-get -y autoremove; sudo apt-get -y autoclean
 
     das Betriebssystem aktualisieren. Das geht nur mit Internetzugriff.
 9. Um die grafische Oberfläche zu fixen, muss dieser Befehl ausgeführt werden: 
