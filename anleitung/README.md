@@ -302,3 +302,6 @@ Wo `edge=` steht, kann in die Zeile `edge=top` oder `edge=bottom`, um die Taskle
  - [Auf den Raspberry Pi zugreifen](http://www.raspberrypi.org/forums/viewtopic.php?f=26&t=21610)
  - [Linux WLAN](http://www.cyberciti.biz/faq/debian-linux-wpa-wpa2-wireless-wifi-networking/)
  - [`lxsession` hat keine Taskleiste](http://www.raspberrypi.org/forums/viewtopic.php?p=217773#p217773)
+
+--------------
+Dieses tutorial ist unter [http://tinyurl.com/raspi-installation](http://tinyurl.com/raspi-installation) verlinkt.
