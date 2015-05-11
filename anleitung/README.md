@@ -304,4 +304,4 @@ Wo `edge=` steht, kann in die Zeile `edge=top` oder `edge=bottom`, um die Taskle
  - [`lxsession` hat keine Taskleiste](http://www.raspberrypi.org/forums/viewtopic.php?p=217773#p217773)
 
 --------------
-Dieses tutorial ist unter [http://tinyurl.com/raspi-installation](http://tinyurl.com/raspi-installation) verlinkt.
+Dieses Tutorial ist unter [http://tinyurl.com/raspi-installation](http://tinyurl.com/raspi-installation) verlinkt.
