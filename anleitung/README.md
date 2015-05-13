@@ -143,13 +143,25 @@ Der Raspberry Pi erhält Internetzugriff.
 
 Das LAN-Kabel wird in den Laptop und das andere Ende in den Raspberry Pi gesteckt. Dadurch hat der Raspberry Pi keinen Internetzugriff aber wir können auf ihn drauf.
 
-### 5.3 Direktverbindung mit Netzwerkbrücke
+### 5.3 Direktverbindung mit Netzwerkbrücke/-freigabe
 
 Da Option 5.2 keinen Internetzugriff bietet aber man den Raspberry Pi nicht immer mit dem LAN-Kabel an ein Netzwerk anschließen kann, kann man über den Laptop eine Internetverbindung herstellen.
 
 ![Verbinden-bridge.png](Verbinden-bridge.png)
 
-[Die Anleitung befindet sich hier.](network-bridge.md)
+Die Freigabe der Internetverbindung erfolgt so:
+
+1. Netzwerk- und Freigabecenter öffnen
+2. Adaptereinstellungen ändern
+3. Den Adapter auswählen, der eine Internetverbindung hat
+4. Rechtsklick
+5. Eigenschaften
+6. Den Tab Freigabe auswählen
+7. Das Häkchen für die Freigabe setzen
+8. Eventuell die Netzwerkverbindung des Raspberry Pis auswählen
+9. OK
+
+Sollte sich herausstellen, dass der Raspberry Pi so keine Internetverbindung erhält, kann eine zweite Möglichkeit ausprobiert werden, [eine Netzwerbrücke zu erstellen.](network-bridge.md)
 
 ### 5.4 WLAN
 
