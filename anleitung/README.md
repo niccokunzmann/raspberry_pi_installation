@@ -315,5 +315,11 @@ Wo `edge=` steht, kann in die Zeile `edge=top` oder `edge=bottom`, um die Taskle
  - [Linux WLAN](http://www.cyberciti.biz/faq/debian-linux-wpa-wpa2-wireless-wifi-networking/)
  - [`lxsession` hat keine Taskleiste](http://www.raspberrypi.org/forums/viewtopic.php?p=217773#p217773)
 
+11. Weiterführende Links
+------------------------
+
+- [Adafruit-Pi-Finder](https://github.com/adafruit/Adafruit-Pi-Finder) - finde deinen Raspberry Pi im Netzwerk
+- [Turn your Raspberry Pi into a Router](http://www.pi-point.co.uk/documentation/)
+
 --------------
 Dieses Tutorial ist unter [http://tinyurl.com/raspi-installation](http://tinyurl.com/raspi-installation) verlinkt.
